@@ -368,7 +368,7 @@ If you use this work in your research, please cite:
   title   = {Trust-Gated MCP: Safe LLM Integration for Cyber-Physical Systems
              via Sensor Data Quality Assessment},
   year    = {2025},
-  note    = {GitHub repository: https://github.com/YOUR_USERNAME/TrustGatedMCP_V2}
+  note    = {GitHub repository: https://github.com/vagelisNerantzis/Trust-Gated-MCP}
 }
 ```
 
