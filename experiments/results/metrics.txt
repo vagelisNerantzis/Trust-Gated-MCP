@@ -1,0 +1,5 @@
+Scenario Pass Rate: 75.0%
+Policy Conformance Rate: 96.4%
+LLM Override Rate: 5.4%
+Unsafe Proposal Rate: 0.0%
+Parse Error Rate: 0.0%

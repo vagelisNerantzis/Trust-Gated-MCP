@@ -1,0 +1,11 @@
+{
+  "total_steps": 56,
+  "num_scenarios": 8,
+  "scenario_pass_rate": 1.0,
+  "unsafe_execution_rate": 0.0,
+  "unsafe_proposal_rate": 0.9286,
+  "override_rate": 0.1429,
+  "conformance_rate": null,
+  "failed_scenario_ids": [],
+  "metrics_version": "v5_execution_strict_mode"
+}

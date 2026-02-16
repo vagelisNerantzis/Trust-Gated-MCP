@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environments
+.env
+.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (keep structure, ignore content)
+experiments/logs/*.csv
+V3/logs/runs/*.csv
+V3/logs/runs/*.png
+
+# Results (optional — remove these lines if you want results in repo)
+# experiments/results/trust_scores.png
+# experiments/results/metrics.txt

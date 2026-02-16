@@ -1,0 +1,39 @@
+# Trust Gated MCP V3 - Configuration
+
+project:
+  name: "TrustGatedMCP_V3"
+  version: "3.0.0"
+  output_dir: "logs/runs"
+
+deployment:
+  mode: "simulation" # or "production"
+  llm_backend: "ollama"
+  model_name: "llama3.1:8b"
+
+trust_engine:
+  thresholds:
+    z_score: 3.0
+    cusum_h: 5.0
+    cusum_k: 0.5
+    residual_growth: 0.5
+  penalties:
+    timestamp_anomaly: 1.0
+    range_violation: 0.5
+    stale_data: 0.6
+    inconsistent_signals: 0.3
+    drift_suspected: 0.2
+  autonomy_levels:
+    full: 0.8
+    safe: 0.6
+    suggest: 0.4
+    block: 0.0
+
+seeds:
+  global_seed: 42
+  scenario_generation: 42
+  agent_noise: 101
+  evaluation_shuffle: 123
+
+scenarios:
+  duration_days: 7
+  active_scenarios: ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"]
