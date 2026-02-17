@@ -3,7 +3,6 @@
 > **A middleware architecture that enforces data-quality-driven autonomy policies on LLM agents operating in safety-critical environments.**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-latest-green)](https://langchain.com/)
 [![MCP](https://img.shields.io/badge/Anthropic-MCP-orange)](https://modelcontextprotocol.io/)
 [![Llama](https://img.shields.io/badge/LLM-Llama%203.1%208B-red)](https://ollama.com/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
